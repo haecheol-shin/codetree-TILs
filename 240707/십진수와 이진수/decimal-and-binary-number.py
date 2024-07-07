@@ -1,6 +1,6 @@
 import sys
 
-binary = sys.stdin.readline().rstrip("\n")
+binary = sys.stdin.readline()
 
 decimal = 0
 for i in range(len(binary)):
@@ -14,7 +14,7 @@ while decimal != 0:
         result.append(0)
     else:
         result.append(1)
-    decimal = int(decimal/2)
+    decimal = decimal//2
     
 for i in range(len(result)):
     print(result.pop(), end="")
