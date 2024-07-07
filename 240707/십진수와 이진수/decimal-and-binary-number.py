@@ -9,13 +9,12 @@ for i in range(len(binary)):
 decimal *= 17
 
 result = []
-while decimal / 2 != 0:
+while decimal != 0:
     if decimal % 2 == 0:
         result.append(0)
     else:
         result.append(1)
-
-    decimal = int(decimal / 2)
-
+    decimal = int(decimal/2)
+    
 for i in range(len(result)):
     print(result.pop(), end="")
