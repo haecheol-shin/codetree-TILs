@@ -1,6 +1,6 @@
 import sys
 
-binary = sys.stdin.readline()
+binary = sys.stdin.readline().rstrip("\n")
 
 decimal = 0
 for i in range(len(binary)):
