@@ -16,12 +16,20 @@ for i in range(m):
     if a == 1:
         result[b-1] = c
     
-    else:
+    elif a == 2:
         for i in range(b-1,c):
             if result[i] == 0:
                 result[i] = 1
             else:
                 result[i] = 0
+
+    elif a == 3:
+        for i in range(b-1,c):
+            result[i] = 0
+    
+    else:
+        for i in range(b-1,c):
+            result[i] = 1
 
 for i in result:
     print(i, end = " ")
