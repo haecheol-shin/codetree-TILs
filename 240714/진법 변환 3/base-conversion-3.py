@@ -1,6 +1,6 @@
 import sys
 
-first_input = sys.stdin.readline()
+first_input = sys.stdin.readline().rstrip("\n")
 
 decimal = 0
 for i in range(len(first_input)):
