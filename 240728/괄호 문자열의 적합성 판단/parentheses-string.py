@@ -8,7 +8,7 @@ for i in sentence:
     if i == '(':
         stack.append(i)
     else:
-        if stack[-1] != '(' or len(stack) == 0:
+        if len(stack) == 0 or stack[-1] != '(':
             print("No")
         else:
             stack.pop()
