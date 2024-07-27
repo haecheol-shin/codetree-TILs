@@ -16,6 +16,8 @@ def func(sentence):
     else:
         return print("Yes")
 
-def __main__:
+def main():
     sentence = sys.stdin.readline()
     func(sentence)
+
+main()
