@@ -17,5 +17,6 @@ for i in range(t):
 
     if in_range is False:
         d_dict[d] -= 3
+        abs(d_dict[d])
 
 print(nx+1, ny+1)
